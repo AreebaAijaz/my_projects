@@ -1,6 +1,7 @@
+import os
 import gradio as gr
 from main import extract_invoice, extract_invoice_from_image
-import os
+
 
 def process_text(text):
     if not text.strip():
